@@ -20,8 +20,8 @@ def get_question_and_answer():
 def run_game(user_name, rule, get_question_and_correct_answer):
     print(rule)
     correct_count = 0
-    wrong = False
-    while correct_count < COUNT_Q and not wrong:
+    correct = True
+    while correct_count < COUNT_Q and correct:
         question, correct_answer = get_question_and_correct_answer()
         print(MESSAGE_ONE.format(question))
         answer = string(MESSAGE_TWO)
@@ -31,8 +31,8 @@ def run_game(user_name, rule, get_question_and_correct_answer):
         else:
             print(MESSAGE_FOUR.format(answer, correct_answer))
             print(MESSAGE_FIVE.format(user_name))
-            wrong = True
-    if not wrong:
+            correct = False
+    if not correct:
         print(MESSAGE_SIX.format(user_name))
 
 
