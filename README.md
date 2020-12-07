@@ -6,3 +6,5 @@
 ![example workflow name](https://github.com/AlexStolbov/python-project-lvl1/workflows/Python%20CI/badge.svg)
 ### Game even
 [![asciicast](https://asciinema.org/a/LAhppwXPXRex3IbsqXR565mA7.svg)](https://asciinema.org/a/LAhppwXPXRex3IbsqXR565mA7)
+### Game calc
+[![asciicast](https://asciinema.org/a/vibuOcxLLHORAobD3yTQWczLn.svg)](https://asciinema.org/a/vibuOcxLLHORAobD3yTQWczLn)
