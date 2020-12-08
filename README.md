@@ -8,3 +8,5 @@
 [![asciicast](https://asciinema.org/a/LAhppwXPXRex3IbsqXR565mA7.svg)](https://asciinema.org/a/LAhppwXPXRex3IbsqXR565mA7)
 ### Game calc
 [![asciicast](https://asciinema.org/a/vibuOcxLLHORAobD3yTQWczLn.svg)](https://asciinema.org/a/vibuOcxLLHORAobD3yTQWczLn)
+### Game GCD
+[![asciicast](https://asciinema.org/a/FLDjW8VHvObRPusysWkuCAhuc.svg)](https://asciinema.org/a/FLDjW8VHvObRPusysWkuCAhuc)
