@@ -24,5 +24,5 @@ def run_game(user_name, rule, get_question_and_correct_answer):
             print(MESSAGE_FOUR.format(answer, correct_answer))
             print(MESSAGE_FIVE.format(user_name))
             correct = False
-    if not correct:
+    if correct:
         print(MESSAGE_SIX.format(user_name))

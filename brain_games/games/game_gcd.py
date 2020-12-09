@@ -8,9 +8,6 @@ def get_question_and_answer():
     number_one = randint(0, 20)
     number_two = randint(1, 20)
 
-    number_one = 11
-    number_two = 9
-
     question = '{} {}'.format(number_one, number_two)
     answer = gcd(number_one, number_two)
     return question, answer
