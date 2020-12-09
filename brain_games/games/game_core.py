@@ -5,8 +5,8 @@ MESSAGE_ONE = 'Question: {}'
 MESSAGE_TWO = 'Your answer: '
 MESSAGE_THREE = 'Correct!'
 MESSAGE_FOUR = "'{}' is wrong answer ;(. Correct answer was '{}'"
-MESSAGE_FIVE = 'Let\'s try again, {}'
-MESSAGE_SIX = 'Congratulations, {}'
+MESSAGE_FIVE = 'Let\'s try again, {}!'
+MESSAGE_SIX = 'Congratulations, {}!'
 
 
 def run_game(user_name, rule, get_question_and_correct_answer):
