@@ -1,4 +1,4 @@
-from random import randint, choice
+from random import randint
 from brain_games.games.game_core import run_game
 
 GAME_RULE = 'What number is missing in the progression?'
@@ -17,7 +17,8 @@ def get_progression():
     start = randint(0, 20)
     length = randint(5, 10)
     step = randint(1, 10)
-    return list(str(element) for element in range(start, start + (length * step), step))
+    all = range(start, start + (length * step), step)
+    return list(str(element) for element in all)
 
 
 def run_game_progression(user_name):
@@ -25,4 +26,4 @@ def run_game_progression(user_name):
 
 
 if __name__ == '__main__':
-    run_game_gcd("Michael")
+    run_game_progression("Michael")
