@@ -5,7 +5,7 @@ GAME_RULE = 'Find the greatest common divisor of given numbers.'
 
 
 def get_question_and_answer():
-    number_one = randint(0, 20)
+    number_one = randint(1, 20)
     number_two = randint(1, 20)
 
     number_one = 25
@@ -17,12 +17,6 @@ def get_question_and_answer():
 
 
 def gcd(number_one, number_two):
-    if number_one == 0:
-        return str(number_two)
-    if number_two == 0:
-        return str(number_one)
-    if number_one == 1 or number_two == 1:
-        return '1'
     result = 1
     while number_one > 1 and number_two > 1:
         while number_one % 2 == 0 and number_two % 2 == 0:
