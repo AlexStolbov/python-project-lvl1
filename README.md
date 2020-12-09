@@ -12,3 +12,5 @@
 [![asciicast](https://asciinema.org/a/FLDjW8VHvObRPusysWkuCAhuc.svg)](https://asciinema.org/a/FLDjW8VHvObRPusysWkuCAhuc)
 ### Game Progression
 [![asciicast](https://asciinema.org/a/b6i2cnJv7DUom9wptEYF8u0Vu.svg)](https://asciinema.org/a/b6i2cnJv7DUom9wptEYF8u0Vu)
+### Game Prime
+[![asciicast](https://asciinema.org/a/PS3hgmJDaH6fYNDdvEuOlFjiI.svg)](https://asciinema.org/a/PS3hgmJDaH6fYNDdvEuOlFjiI)
