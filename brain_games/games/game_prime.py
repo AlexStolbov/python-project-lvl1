@@ -13,7 +13,7 @@ def get_question_and_answer():
 
 
 def is_prime(number):
-    result = True
+    result = False if number < 2 else True
     for i in range(2, round(sqrt(number)) + 1):
         if number % i == 0:
             result = False
