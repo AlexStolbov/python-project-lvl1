@@ -1,7 +1,7 @@
 from random import randint
-from brain_games.games.game_core import run_game
+from brain_games_pac.engine import run_game
 
-GAME_RULE = 'What number is missing in the progression?'
+DESCRIPTION = 'What number is missing in the progression?'
 
 
 def get_question_and_answer():
@@ -22,8 +22,4 @@ def get_progression():
 
 
 def run_game_progression(user_name):
-    run_game(user_name, GAME_RULE, get_question_and_answer)
-
-
-if __name__ == '__main__':
-    run_game_progression("Michael")
+    run_game(user_name, DESCRIPTION, get_question_and_answer)

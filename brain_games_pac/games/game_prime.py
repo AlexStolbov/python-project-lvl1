@@ -1,8 +1,8 @@
-from brain_games.games.game_core import run_game
+from brain_games_pac.engine import run_game
 from random import randint
 from math import sqrt
 
-GAME_RULE = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def get_question_and_answer():
@@ -22,8 +22,4 @@ def is_prime(number):
 
 
 def run_game_prime(user_name):
-    run_game(user_name, GAME_RULE, get_question_and_answer)
-
-
-if __name__ == '__main__':
-    run_game_prime("Michael")
+    run_game(user_name, DESCRIPTION, get_question_and_answer)
