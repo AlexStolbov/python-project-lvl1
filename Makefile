@@ -14,6 +14,6 @@ package-install:
 	pip install --force --user dist/*.whl
 
 lint:
-	poetry run flake8 brain_games
+	poetry run flake8 brain_games_pac
 
 .PHONY: install
