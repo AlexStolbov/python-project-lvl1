@@ -14,8 +14,7 @@ def run_game(game):
     user_name = welcome_user()
     print(game.DESCRIPTION)
     correct_count = 0
-    correct = True
-    while correct_count < ROUNDS_COUNT and correct:
+    while correct_count < ROUNDS_COUNT:
         question, correct_answer = game.get_question_and_answer()
         print(MESSAGE_QUESTION.format(question))
         answer = string(MESSAGE_ANSWER)
@@ -25,6 +24,6 @@ def run_game(game):
         else:
             print(MESSAGE_WRONG.format(answer, correct_answer))
             print(MESSAGE_TRY.format(user_name))
-            correct = False
-    if correct:
+            break
+    if correct_count >= ROUNDS_COUNT:
         print(MESSAGE_CONGRATULATIONS.format(user_name))
