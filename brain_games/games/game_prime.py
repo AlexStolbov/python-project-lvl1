@@ -1,4 +1,3 @@
-from brain_games_pac.engine import run_game
 from random import randint
 from math import sqrt
 
@@ -19,7 +18,3 @@ def is_prime(number):
             result = False
             break
     return result
-
-
-def run_game_prime(user_name):
-    run_game(user_name, DESCRIPTION, get_question_and_answer)

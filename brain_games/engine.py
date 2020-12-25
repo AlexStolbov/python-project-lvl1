@@ -1,5 +1,5 @@
 from prompt import string
-from brain_games_pac.cli import welcome_user
+from brain_games.cli import welcome_user
 
 ROUNDS_COUNT = 3
 MESSAGE_QUESTION = 'Question: {}'
