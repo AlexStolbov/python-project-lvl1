@@ -12,4 +12,3 @@ def get_question_and_answer():
     question = '{} {} {}'.format(operand_one, operator, operand_two)
     answer = str(fun(operand_one, operand_two))
     return question, answer
-
