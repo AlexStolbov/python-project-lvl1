@@ -11,7 +11,8 @@ MESSAGE_CONGRATULATIONS = 'Congratulations, {}!'
 
 
 def run_game(game):
-    user_name = welcome_user()
+    user_name = string('May I have your name? ')
+    print('Hello, {}!'.format(user_name))
     print(game.DESCRIPTION)
     correct_count = 0
     while correct_count < ROUNDS_COUNT:
