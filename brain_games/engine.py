@@ -1,6 +1,8 @@
 from prompt import string
 
 ROUNDS_COUNT = 3
+MESSAGE_WELCOME = 'Welcome to the Brain Games!'
+MESSAGE_GET_NAME = 'May I have your name? '
 MESSAGE_QUESTION = 'Question: {}'
 MESSAGE_ANSWER = 'Your answer: '
 MESSAGE_CORRECT = 'Correct!'
@@ -10,7 +12,8 @@ MESSAGE_CONGRATULATIONS = 'Congratulations, {}!'
 
 
 def run_game(game):
-    user_name = string('May I have your name? ')
+    print(MESSAGE_WELCOME)
+    user_name = string(MESSAGE_GET_NAME)
     print('Hello, {}!'.format(user_name))
     print(game.DESCRIPTION)
     correct_count = 0
