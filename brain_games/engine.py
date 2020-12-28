@@ -28,5 +28,5 @@ def run_game(game):
             print(MESSAGE_WRONG.format(answer, correct_answer))
             print(MESSAGE_TRY.format(user_name))
             break
-    if correct_count >= ROUNDS_COUNT:
+    if correct_count == ROUNDS_COUNT:
         print(MESSAGE_CONGRATULATIONS.format(user_name))
